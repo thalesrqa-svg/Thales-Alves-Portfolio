@@ -1,0 +1,34 @@
+css
+/* style.css */
+html {
+    scroll-behavior: smooth; /* Faz a âncora deslizar suavemente */
+}
+
+nav {
+    position: fixed; /* Mantém o menu sempre visível no topo */
+    width: 100%;
+    top: 0;
+    background: #40fa07;
+    padding: 15px 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Espaçamento para o conteúdo não ficar escondido atrás do menu fixo */
+.conteudo {
+    padding: 100px 20px; 
+    min-height: 100vh; /* Cada seção ocupa a tela inteira */
+    border-bottom: 1px solid #7cce94;
+}
